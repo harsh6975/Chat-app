@@ -1,8 +1,15 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Landing from './components/Landing/Landing';
+import Login from './components/Login/Login';
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element = {<Landing/>} />
+        <Route path='login' element = {<Login/>}/>
+      </Routes>
+    </Router>
   );
 }
 
