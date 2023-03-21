@@ -1,0 +1,82 @@
+.form_name {
+    margin-top: 2rem;
+    text-decoration: underline red ;
+    text-underline-offset: 0.5rem;
+}
+
+.login_form {
+    margin-top: 2rem;
+
+}
+
+.controls {
+    margin-top: 1rem;
+}
+
+.controls_input {
+    position: relative;
+}
+
+.controls_input input {
+    border: 1px solid gray;
+    border-radius: 0.15rem;
+    padding: 0.5rem 2.5rem;
+    margin: 0.5rem 0;
+    width: 85%;
+}
+
+input:focus {
+    outline: none;
+ }
+
+.icon {
+    top: 0.75rem;
+    left: 0.5rem;
+    color: grey;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+.actions {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions_submit {
+    background-color: red;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    cursor: pointer;
+}
+
+.actions_fg_pass {
+    cursor: pointer;
+}
+
+.social_login_box {
+    margin-top: 1rem;
+}
+
+.social_acc_heading {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.social_login {
+    padding: 0.25rem;
+    width: 65%;
+    margin: 1.5rem auto;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.google {
+    background-color: rgb(248, 76, 76);
+}
+
+.fb {
+    background-color: #3b5998;
+}

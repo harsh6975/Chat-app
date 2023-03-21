@@ -1,0 +1,28 @@
+.right_box {
+    margin-left: 0.5rem;
+    flex: 1 1 300px;
+    padding: 0.25rem;
+}
+
+.login_signup_toggle {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login_toggle, .signup_toggle {    
+    display: inline;
+    padding: 0.25rem 0.75rem;
+    cursor: pointer;
+    border-radius: 0.1rem;
+}
+
+.bg_gray {
+    background-color: grey;
+}
+
+.bg_red {
+    background-color: red;
+}
+
+
